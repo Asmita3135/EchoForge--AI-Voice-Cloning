@@ -1,0 +1,57 @@
+{
+    "credential_request": [
+        "otp",
+        "password",
+        "pin",
+        "verification code",
+        "security code"
+    ],
+
+    "financial": [
+        "bank",
+        "account",
+        "money",
+        "payment",
+        "transfer",
+        "credit card",
+        "debit card"
+    ],
+
+    "urgency": [
+        "urgent",
+        "immediately",
+        "right now",
+        "act now",
+        "quickly",
+        "within 10 minutes"
+    ],
+
+    "authority": [
+        "bank officer",
+        "police",
+        "government",
+        "official",
+        "customer care"
+    ],
+
+    "suspicious_action": [
+        "click this link",
+        "install this app",
+        "share your screen",
+        "download this application"
+    ],
+
+    "credential_request_phrases": [
+        "provide your otp",
+        "tell me your otp",
+        "send me your otp",
+        "share your password",
+        "tell me your pin"
+    ],
+
+    "urgency_phrases": [
+        "do it immediately",
+        "act right now",
+        "you must do this now"
+    ]
+}
