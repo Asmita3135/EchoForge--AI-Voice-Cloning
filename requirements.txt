@@ -1,0 +1,8 @@
+# EchoForge - Speaker Verification Dependencies
+# Install using: pip install -r requirements.txt
+
+torch>=2.0.0
+torchaudio>=2.0.0
+speechbrain>=0.5.16
+soundfile>=0.12.1
+huggingface_hub>=0.16.0

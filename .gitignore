@@ -1,11 +1,33 @@
 # Virtual environments
 **/.venv/
 **/venv/
+venv/
+.venv/
 
-# Python cache
+# Python cache & build
 **/__pycache__/
 **/*.pyc
+**/*.pyo
+**/*.pyd
 **/.mypy_cache/
+**/.pytest_cache/
 
 # Environment/secrets
 **/.env
+.env*
+
+# Model files & Hugging Face cache
+**/*.ckpt
+**/*.pt
+**/*.pth
+**/*.bin
+**/*.safetensors
+**/.cache/
+pretrained_model/
+**/huggingface/
+
+# System & temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
