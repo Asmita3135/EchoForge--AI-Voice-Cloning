@@ -1,0 +1,4 @@
+# EchoForge Python Dependencies
+# Install with: pip install -r requirements.txt
+
+openai-whisper
