@@ -1,11 +1,20 @@
 # Virtual environments
 **/.venv/
 **/venv/
+venv/
 
 # Python cache
 **/__pycache__/
 **/*.pyc
 **/.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Environment/secrets
 **/.env
+.env
+
+# Temporary files and logs
+temp_audio/
+*.log
