@@ -1,6 +1,6 @@
 import whisper  # type: ignore[import-untyped]
 
-model = whisper.load_model("tiny")
+model = whisper.load_model("base")
 
 
 def transcribe_audio(audio_path):
