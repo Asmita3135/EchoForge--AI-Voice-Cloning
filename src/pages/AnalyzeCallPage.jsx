@@ -177,7 +177,7 @@ export function AnalyzeCallPage({
           <div>
             <div className="hero-orange-badge">
               <ShieldCheck size={15} />
-              <span>AI-Powered Call Security for Every Indian</span>
+              <span>Know When a Conversation Becomes a Threat</span>
             </div>
 
             <h1 className="hero-headline">
@@ -189,9 +189,7 @@ export function AnalyzeCallPage({
             </h1>
 
             <p className="hero-subheadline">
-              Upload a suspicious call recording. EchoForge uses AI to detect voice cloning,
-              compare speakers, and analyze conversation risk — giving you a clear safety verdict
-              in seconds.
+              EchoForge analyzes voice authenticity, conversation context, and social-engineering behavior in real time to detect scam intent before it becomes a loss.
             </p>
 
             <div className="hero-cta-group">

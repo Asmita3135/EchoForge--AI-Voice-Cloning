@@ -717,10 +717,13 @@ ul{list-style:none;}
 /* ANIMATIONS */
 @keyframes fadeSlideUp{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
 .fade-slide-up{animation:fadeSlideUp 0.35s ease forwards;}
+@keyframes slideInRight{from{transform:translateX(100%);}to{transform:translateX(0);}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
 @media(prefers-reduced-motion:reduce){
   .fade-slide-up{animation:none;}
   *{transition-duration:0.01ms!important;animation-duration:0.01ms!important;}
 }
+
 
 /* UTILITIES */
 .text-primary{color:var(--text-primary);}
