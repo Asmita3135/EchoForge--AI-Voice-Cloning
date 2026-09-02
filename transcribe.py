@@ -1,6 +1,6 @@
 import whisper  # type: ignore[import-untyped]
 
-model = whisper.load_model("base")
+model = whisper.load_model("base") # Use model "tiny" for loading the model faster, but accuracy will be low.
 
 
 def transcribe_audio(audio_path):
